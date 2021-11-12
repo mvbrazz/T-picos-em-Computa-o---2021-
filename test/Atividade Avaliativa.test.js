@@ -61,7 +61,7 @@ describe('Utils', () => {
                 {id:4,nome:"Carlos",data:1,estado:"Paraná"}
             ];
             */ 
-           /* 
+           
            var cliente1 = {id:0,nome:"José",data_ano:2021,data_mes:10,estado:"Paraná"};
            var cliente2 = {id:1,nome:"Marcos",data_ano:2021,data_mes:11,estado:"Paraná"};
            var cliente3 = {id:2,nome:"Paulo",data_ano:2021,data_mes:9,estado:"Paraná"};
@@ -77,8 +77,8 @@ describe('Utils', () => {
                 {codigo:4,valor:2200,data_ano:2021,data_mes:12,Cliente:cliente5}
             ];
 
-            var resposta = faturas.filter(FiltroMenor2500eDataMenor);
-            expect(resposta.length).toBe(4);*/
+            var resposta = faturas.filter(FiltroMaior2500eMenor3000DataMenor2meses);
+            expect(resposta.length).toBe(4);
         });
     });    
 });
