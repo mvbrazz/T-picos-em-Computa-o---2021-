@@ -1,4 +1,4 @@
-const {FiltroMaior2000,FiltroMaior2000Menor2500eDataMenor} = require('../lib/Atividade Avaliativa');
+const {FiltroMaior2000,FiltroMaior2000Menor2500eDataMenor,FiltroMaior2500eMenor3000DataMenor2meses} = require('../lib/Atividade Avaliativa');
 describe('Utils', () => {
     describe('Faturas', () => {
         test('Se o valor da fatura for menor que 2000', () => {
@@ -78,7 +78,7 @@ describe('Utils', () => {
             ];
 
             var resposta = faturas.filter(FiltroMaior2500eMenor3000DataMenor2meses);
-            expect(resposta.length).toBe(4);
+            expect(resposta.length).toBe(5);
         });
     });    
 });
