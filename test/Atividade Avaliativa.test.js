@@ -48,7 +48,6 @@ describe('Utils', () => {
                 {codigo:4,valor:2200,data_ano:2021,data_mes:12,Cliente:cliente5}
             ];
 
-            //var resposta = faturas.filter(FiltroMaior2000);
             var resposta = faturas.filter(FiltroMenor2500eDataMenor);
             expect(resposta.length).toBe(4);
         });
