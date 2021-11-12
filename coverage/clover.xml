@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636677362139" clover="3.2.0">
-  <project timestamp="1636677362139" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3" elements="42" coveredelements="39" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+<coverage generated="1636677983188" clover="3.2.0">
+  <project timestamp="1636677983189" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="25" coveredconditionals="22" methods="4" coveredmethods="4" elements="55" coveredelements="52" complexity="0" loc="26" ncloc="26" packages="1" files="1" classes="1"/>
     <file name="Atividade Avaliativa.js" path="C:\Users\mvbra\Desktop\Atividade Avaliativa\lib\Atividade Avaliativa.js">
-      <metrics statements="21" coveredstatements="21" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3"/>
+      <metrics statements="26" coveredstatements="26" conditionals="25" coveredconditionals="22" methods="4" coveredmethods="4"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="4" count="3" type="stmt"/>
@@ -24,7 +24,12 @@
       <line num="38" count="1" type="stmt"/>
       <line num="43" count="4" type="stmt"/>
       <line num="44" count="4" type="stmt"/>
-      <line num="49" count="1" type="stmt"/>
+      <line num="51" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="2" type="cond" truecount="5" falsecount="0"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="60" count="3" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
